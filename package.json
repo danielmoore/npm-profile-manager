@@ -1,0 +1,30 @@
+{
+  "name": "npm-profile-manager",
+  "version": "0.1.0",
+  "description": "Profile management for .npmrc files.",
+  "preferGlobal": true,
+  "entry": "profile-manager.js",
+  "bin": {
+    "npmrc": "bin/npmrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmoore/npm-profile-manager.git"
+  },
+  "keywords": [
+    "npmrc",
+    "utility",
+    "shell"
+  ],
+  "author": "Daniel Moore <polaris@northhorizon.net> (http://northhorizon.net)",
+  "license": "MIT",
+  "dependencies": {
+    "q": "~0.9.6",
+    "optimist": "~0.6.0",
+    "read": "~1.0.5",
+    "npmconf": "~0.1.5",
+    "rimraf": "~2.2.2",
+    "mkdirp": "~0.3.5",
+    "ansicolors": "~0.3.0"
+  }
+}
