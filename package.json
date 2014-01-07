@@ -1,6 +1,6 @@
 {
   "name": "npm-profile-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Profile management for .npmrc files.",
   "preferGlobal": true,
   "entry": "profile-manager.js",
